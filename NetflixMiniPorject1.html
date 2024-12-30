@@ -23,8 +23,47 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css"
     />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <header class="d-flex justify-content-between align-item-center p-3">
+      <img
+        src="./Logo.jpg"
+        alt="Netflix"
+        class="logo"
+        width="150px"
+        height="50px"
+      />
+      <div class="d-flex">
+        <select class="from-control mr-3">
+          <option>English</option>
+          <option>Spanish</option>
+          <option>Arabic</option>
+        </select>
+        <button class="btn btn-danger" type="button">Sign-In</button>
+      </div>
+    </header>
+    <main class="container" style="background-image: url(./Background.jpg)">
+      <div class="text-center my-5">
+        <h1 style="color: white">
+          Unlimited movies, TV shows and many more in just one click.
+        </h1>
+        <p style="color: white">
+          Watch anywhere anytime without any interuption. Cancel your
+          subscriptions anytime.
+        </p>
+        <input
+          type="email"
+          class="from-control my-3"
+          placeholder="Email address"
+        />
+        <button class="btn btn-lg btn-danger">Get started</button>
+      </div>
+      <section class="my-5">
+        <h2>Popular on Netflix</h2>
+        <div class="row"></div>
+      </section>
+    </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
