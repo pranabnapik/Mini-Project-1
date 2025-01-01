@@ -1,16 +1,11 @@
       body {
         background-color: #141414;
         color: white;
-        /* background-image: url(./Background.jpg);
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-position: center; */
       }
       .header {
         background-color: #111;
         padding: 15px 20px;
       }
-      
       .hero {
         background-image: url(./Background.jpg);
         background-size:cover;
@@ -47,21 +42,21 @@
         text-decoration:underline;
       }
       .logo-big {
-      height: 50px; /* Default size for large screens */
-      display: block; /* Visible by default */
+      height: 50px; 
+      display: block; 
       }
 
       .logo-small {
-      height: 30px; /* Smaller logo for small screens */
-      display: none; /* Hidden by default */
+      height: 30px; 
+      display: none; 
       }
 
-      /* Media Query for Responsive Logo */
+      
       @media (max-width: 768px) {
         .logo-big {
-          display: none; /* Hide large logo on small screens */
+          display: none; 
       }
         .logo-small {
-          display: block; /* Show small logo on small screens */
+          display: block;
       }
       }
