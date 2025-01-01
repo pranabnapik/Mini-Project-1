@@ -24,6 +24,15 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css"
     />
     <link rel="stylesheet" href="./style.css" />
+    <style>
+      .section-title {
+        margin: 40px 0 20px;
+      }
+      .faq-section .faq-item {
+        background-color: #222;
+        border: none;
+      }
+    </style>
   </head>
   <body>
     <header class="d-flex justify-content-between align-item-center p-3">
@@ -63,6 +72,49 @@
         <h2>Popular on Netflix</h2>
         <div class="row"></div>
       </section>
+      <h2 class="section-title">Frequently Asked Questions</h2>
+    <div class="faq-section">
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item faq-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#faq1"
+              aria-expanded="false"
+            >
+              What is Netflix?
+            </button>
+          </h2>
+          <div id="faq1" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              Netflix is a streaming service offering a variety of award-winning
+              TV shows, movies, anime, documentaries, and more.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item faq-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#faq2"
+              aria-expanded="false"
+            >
+              How much does Netflix cost?
+            </button>
+          </h2>
+          <div id="faq2" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              Plans range from ₹199 to ₹799 a month. No extra costs, no
+              contracts.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     </main>
     <footer class="bg-dark text-white p-4">
       <div class="container">
@@ -88,5 +140,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </div> 
+    
   </body>
 </html>
