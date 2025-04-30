@@ -1,65 +1,74 @@
-      body {
-        background-color: #141414;
-        color: white;
-        padding: 10px;
-      }
-      .header {
-        background-color: #111;
-        padding: 10px 20px;
-      }
-      
-      .hero {
-        background-image: url(./Background.jpg);
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 60vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        color: white;
-        font-weight: bold;
-      }
-      .container-fluid .row .col-md-3 .img-fluid{
-        width: 320px;
-        height: 200px;
-      }
-      .hero .input-group{
-        max-width: 600px;
-      }
-      .section-title {
-        margin: 40px 0 20px;
-      }
-      .faq-section .faq-item {
-        color: white;
-        background-color: #383737;
-        border: none;
-      }
-      .footer {
-        background-color: #111;
-        padding: 20px;
-      }
-      .footer a {
-        color: white;
-        text-decoration:underline;
-      }
-      .logo-big {
-      height: 50px; 
-      display: block; 
-      }
+body {
+  background-color: #141414;
+  color: white;
+  padding: 10px;
+}
 
-      .logo-small {
-      height: 30px; 
-      display: none; 
-      }
+.header {
+  background-color: #111;
+  padding: 10px 20px;
+}
 
-      
-      @media (max-width: 768px) {
-        .logo-big {
-          display: none; 
-      }
-        .logo-small {
-          display: block;
-      }
-      }
+.hero {
+  background-image: url(./Background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.container-fluid .row .col-md-3 .img-fluid {
+  width: 320px;
+  height: 200px;
+}
+
+.hero .input-group {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.section-title {
+  margin: 40px 0 20px;
+}
+
+.faq-section .faq-item {
+  color: white;
+  background-color: #383737;
+  border: none;
+}
+
+.footer {
+  background-color: #111;
+  padding: 20px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+.logo-big {
+  height: 50px;
+  display: block;
+}
+
+.logo-small {
+  height: 30px;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .logo-big {
+    display: none;
+  }
+
+  .logo-small {
+    display: block;
+  }
+}
